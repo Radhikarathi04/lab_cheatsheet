@@ -8,10 +8,13 @@ GIT CHEATSHEET
 git init = Create empty Git repo in specified directory. Run with no
 arguments to initialize the current directory as a git repository.
 
-git add  = Stage all changes in <directory> for the next commit.
-Replace <directory> with a <file> to change a specific file.
+git add  = Stage all changes in <directory> for the next commit. Replace <directory> with a <file> to change a specific file.
 
-git commit -m"<message>" = Commit the staged snapshot, but instead of launching
-a text editor, use <message> as the commit message.
+git commit -m"<message>" = Commit the staged snapshot, but instead of launching a text editor, use <message> as the commit message.
 
 git status = List which files are staged, unstaged, and untracked.
+
+git log = Display the entire commit history using the default format. For customization see additional options.
+
+git pull = Fetch the remote’s copy of current branch and rebases it into the local copy. Uses git rebase instead of merge to integrate the branches.
+
