@@ -1,5 +1,15 @@
 TERMINAL COMMANDS
-cd = changes directory
+cd = change directory
+
+mkdir = creates a directory
+
+pwd = tells the path
+
+ls = lists all folders and files that are not hidden in the directory
+
+touch [file name] = creates a new file
+
+Ctrl + L = clears the screen
 
 
 
