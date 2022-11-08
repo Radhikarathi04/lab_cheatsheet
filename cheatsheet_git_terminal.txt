@@ -1,30 +1,34 @@
 TERMINAL COMMANDS
 
-cd <directory> = Change directory to <directory>
+cd [directory] = Change directory to [directory]
 
 cd .. = Navigate to parent directory
 
-mkdir <directory> = Create new directory named <directory>
+mkdir [directory] = Create new directory named [directory]
 
 pwd = Display path of current working directory
 
 ls = List directory content. lists all folders and files that are not hidden in the directory
 
-ls -a = List detailed direcotry content, including hidden files
+ls -a = List detailed directory content, including hidden files
 
-touch <file> = Create new file named <file>
+touch [file] = Create new file named [file]
 
-Ctrl + L = clears the screen
+open [file] = Opens a file
+
+Ctrl + L = Clears the screen
 
 clear = Clears the screen
 
-rm <file> = Delete <file>
+TAB = Auto completes file and folder names
 
-rm -r <directory> = Delete <directory>
+rm [file] = Delete [file]
 
-mv <file old> <file new> = Rename <file old> <file new>
+rm -r [directory] = Delete [directory]
 
-mv <file> <directory> = Move <file> to <directory> 
+mv [file old] [file new] = Rename [file old] [file new]
+
+mv [file] [directory] = Move [file] to [directory] 
 
 ARROW UP key = Pressing the ARROW UP key allows to step through last called commands (starting with most recent)
 
